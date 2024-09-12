@@ -46,7 +46,7 @@ class ApiDataExporter:
     def save_to_excel(self, all_data):
         df = pd.DataFrame(all_data)
         file_name = self.format_filename(self.endpoint) + '.xlsx'
-        directory = 'C:/Users/kasse/OneDrive/Desktop/FECDATAPULLCODE/'
+        directory = 'C:/Users/kasse/OneDrive/Desktop/FECDATAPULLCODE/EXCEL_FILES_OF_FEC/'
         file_path = os.path.join(directory, file_name)
 
         if not os.path.exists(directory):

@@ -35,7 +35,7 @@ class ApiDataExporter:
                 all_data.extend(fetched_data)
                 print(f"Fetched {len(fetched_data)} records from page {page}. Total records: {len(all_data)}")
                 page += 1
-                if len(all_data) >= 1000:
+                if len(all_data) >= 500:
                     break
             else:
                 print("No data or error in response.")
@@ -43,17 +43,17 @@ class ApiDataExporter:
 
         return all_data
 
-    def save_to_excel(self, all_data):
+    def save_to_csv(self, all_data):
         df = pd.DataFrame(all_data)
-        file_name = self.format_filename(self.endpoint) + '.xlsx'
-        directory = 'C:/Users/kasse/OneDrive/Desktop/FECDATAPULLCODE/EXCEL_FILES_OF_FEC/'
+        file_name = self.format_filename(self.endpoint) + '.csv'
+        directory = 'C:/Users/kasse/OneDrive/Desktop/FECDATAPULLCODE/CSV_FILES_OF_FEC/'
         file_path = os.path.join(directory, file_name)
 
         if not os.path.exists(directory):
             os.makedirs(directory)
             print(f"Directory '{directory}' created.")
 
-        df.to_excel(file_path, index=False, engine='openpyxl')
+        df.to_csv(file_path, index=False)
         print(f"Data saved to file '{file_path}'.")
 
     @staticmethod
@@ -63,7 +63,7 @@ class ApiDataExporter:
     def run(self):
         all_data = self.fetch_all_pages()
         if all_data:
-            self.save_to_excel(all_data)
+            self.save_to_csv(all_data)
         else:
             print(f"No data fetched for endpoint '{self.endpoint}'.")
 

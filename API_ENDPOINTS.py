@@ -5,9 +5,9 @@ endpoints = [
                                                                         #'candidate/{candidate_id}/history/{cycle}/',
                                                                         #'candidate/{candidate_id}/totals/',
         'candidates/',#50163_rows CopyOFOtherTables
-        'candidates/search/',#50163_rows CopyOFOtherTables
-        'candidates/totals/',#72381_rows
-        'candidates/totals/aggregates/',#34_rows
+        #'candidates/search/',#50163_rows CopyOFOtherTables
+        #'candidates/totals/',#72381_rows
+        #'candidates/totals/aggregates/',#34_rows
                                                                         #'committee/{committee_id}/candidates/',
                                                                         #'committee/{committee_id}/candidates/history/',
                                                                         #'committee/{committee_id}/candidates/history/{cycle}',
@@ -20,18 +20,18 @@ endpoints = [
                                                                         #'candidate/{candidate_id}/history/{cycle}/',
         "committees/",#81696_rows
         #dates
-        "calendar-dates/",#7496_rows
+        #"calendar-dates/",#7496_rows
 #        'calendar_datas/export/',######Issue with data import due to data types within columns (fix later) Requires a certain python libarary
-        "election-dates/",#3198_rows
-        "reporting-dates/",#4496_rows
+        #"election-dates/",#3198_rows
+        #"reporting-dates/",#4496_rows
         #financial
                                                                         #'committee/{committee_id}/reports/',
                                                                         #'committee/{committee_id}/totals/',
-        'elections/',               #Skipped
-        'elections/search/',#21233
-        'elections/summary/',       #Skipped
+        #'elections/',               #Skipped
+        #'elections/search/',#21233
+        #'elections/summary/',       #Skipped
                                                                         #'reports/{entity_type}/',
-        'totals/by_entity/',        #Skipped
+        #'totals/by_entity/',        #Skipped
         'totals/inaugural_committees/by_contributor/',#45825_rows
                                                                         #'totals/{by_entity_type}',
         #search
@@ -116,3 +116,4 @@ endpoints = [
         #legal
         "legal/search/" #Skipped
         ]  
+

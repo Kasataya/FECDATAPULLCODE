@@ -46,7 +46,7 @@ class ApiDataExporter:
     def save_to_csv(self, all_data):
         df = pd.DataFrame(all_data)
         file_name = self.format_filename(self.endpoint) + '.csv'
-        directory = 'C:/Users/kasse/OneDrive/Desktop/FECDATAPULLCODE/CSV_FILES_OF_FEC/'
+        directory = 'C:/Users/kasse/OneDrive/Desktop/FECDATAPULLCODE/CSV_FILES_OF_FEC_100/'
         file_path = os.path.join(directory, file_name)
 
         if not os.path.exists(directory):

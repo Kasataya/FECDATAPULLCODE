@@ -18,12 +18,12 @@ endpoints = [
                                                                         #'candidate/{candidate_id}/',
                                                                         #'candidate/{candidate_id}/history/',
                                                                         #'candidate/{candidate_id}/history/{cycle}/',
-        "committees/",#81696_rows
+        #"committees/",#81696_rows
         #dates
-        "calendar-dates/",#7496_rows
+        #"calendar-dates/",#7496_rows
 #        'calendar_datas/export/',######Issue with data import due to data types within columns (fix later) Requires a certain python libarary
-        "election-dates/",#3198_rows
-        "reporting-dates/",#4496_rows
+        #"election-dates/",#3198_rows
+        #"reporting-dates/",#4496_rows
         #financial
                                                                         #'committee/{committee_id}/reports/',
                                                                         #'committee/{committee_id}/totals/',

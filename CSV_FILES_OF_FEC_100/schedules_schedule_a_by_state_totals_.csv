@@ -1,0 +1,101 @@
+committee_type,committee_type_full,count,cycle,state,state_full,total
+ALL,All,90,1978,AK,Alaska,214665.0
+ALL_CANDIDATES,All Candidates,52,1978,AK,Alaska,154937.0
+ALL_PACS,All PACs,25,1978,AK,Alaska,16218.0
+H,House,23,1978,AK,Alaska,93764.0
+Q,PAC - Qualified,24,1978,AK,Alaska,14518.0
+S,Senate,29,1978,AK,Alaska,61173.0
+W,Hybrid PAC (with Non-Contribution Account) - Qualified,1,1978,AK,Alaska,1700.0
+Y,Party - Qualified,13,1978,AK,Alaska,43510.0
+ALL,All,172,1978,AL,Alabama,2147483.0
+ALL_CANDIDATES,All Candidates,81,1978,AL,Alabama,1200252.0
+ALL_PACS,All PACs,78,1978,AL,Alabama,714794.0
+H,House,43,1978,AL,Alabama,387282.0
+N,PAC - Nonqualified,1,1978,AL,Alabama,450.0
+P,Presidential,2,1978,AL,Alabama,740.0
+Q,PAC - Qualified,76,1978,AL,Alabama,707894.0
+S,Senate,36,1978,AL,Alabama,812230.0
+W,Hybrid PAC (with Non-Contribution Account) - Qualified,1,1978,AL,Alabama,6450.0
+Y,Party - Qualified,13,1978,AL,Alabama,232437.0
+ALL,All,146,1978,AR,Arkansas,2175805.0
+ALL_CANDIDATES,All Candidates,75,1978,AR,Arkansas,1978794.0
+ALL_PACS,All PACs,59,1978,AR,Arkansas,64317.0
+H,House,43,1978,AR,Arkansas,653092.0
+N,PAC - Nonqualified,2,1978,AR,Arkansas,3154.0
+Q,PAC - Qualified,56,1978,AR,Arkansas,58013.0
+S,Senate,32,1978,AR,Arkansas,1325702.0
+W,Hybrid PAC (with Non-Contribution Account) - Qualified,1,1978,AR,Arkansas,3150.0
+Y,Party - Qualified,12,1978,AR,Arkansas,132694.0
+ALL,All,192,1978,AZ,Arizona,897807.0
+ALL_CANDIDATES,All Candidates,94,1978,AZ,Arizona,295431.0
+ALL_PACS,All PACs,81,1978,AZ,Arizona,241245.0
+H,House,51,1978,AZ,Arizona,239375.0
+N,PAC - Nonqualified,5,1978,AZ,Arizona,10204.0
+P,Presidential,2,1978,AZ,Arizona,8300.0
+Q,PAC - Qualified,74,1978,AZ,Arizona,226941.0
+S,Senate,41,1978,AZ,Arizona,47756.0
+W,Hybrid PAC (with Non-Contribution Account) - Qualified,2,1978,AZ,Arizona,4100.0
+Y,Party - Qualified,17,1978,AZ,Arizona,361131.0
+ALL,All,831,1978,CA,California,9026992.0
+ALL_CANDIDATES,All Candidates,443,1978,CA,California,4025458.0
+ALL_PACS,All PACs,342,1978,CA,California,1896005.0
+H,House,324,1978,CA,California,3007100.0
+N,PAC - Nonqualified,13,1978,CA,California,54980.0
+P,Presidential,6,1978,CA,California,80385.0
+Q,PAC - Qualified,326,1978,CA,California,1828550.0
+S,Senate,113,1978,CA,California,937973.0
+U,Single Candidate Independent Expenditure,1,1978,CA,California,2000.0
+W,Hybrid PAC (with Non-Contribution Account) - Qualified,3,1978,CA,California,12475.0
+X,Party - Nonqualified,6,1978,CA,California,52155.0
+Y,Party - Qualified,39,1978,CA,California,3051374.0
+ALL,All,264,1978,CO,Colorado,1344759.0
+ALL_CANDIDATES,All Candidates,132,1978,CO,Colorado,877370.0
+ALL_PACS,All PACs,110,1978,CO,Colorado,256807.0
+H,House,85,1978,CO,Colorado,336886.0
+N,PAC - Nonqualified,3,1978,CO,Colorado,9100.0
+P,Presidential,1,1978,CO,Colorado,1400.0
+Q,PAC - Qualified,104,1978,CO,Colorado,235107.0
+S,Senate,46,1978,CO,Colorado,539084.0
+W,Hybrid PAC (with Non-Contribution Account) - Qualified,3,1978,CO,Colorado,12600.0
+X,Party - Nonqualified,1,1978,CO,Colorado,3200.0
+Y,Party - Qualified,21,1978,CO,Colorado,207382.0
+ALL,All,391,1978,CT,Connecticut,1764870.0
+ALL_CANDIDATES,All Candidates,198,1978,CT,Connecticut,546506.0
+ALL_PACS,All PACs,166,1978,CT,Connecticut,473714.0
+H,House,121,1978,CT,Connecticut,325933.0
+N,PAC - Nonqualified,5,1978,CT,Connecticut,12400.0
+P,Presidential,2,1978,CT,Connecticut,20700.0
+Q,PAC - Qualified,159,1978,CT,Connecticut,457614.0
+S,Senate,75,1978,CT,Connecticut,199873.0
+U,Single Candidate Independent Expenditure,2,1978,CT,Connecticut,1250.0
+W,Hybrid PAC (with Non-Contribution Account) - Qualified,2,1978,CT,Connecticut,3700.0
+Y,Party - Qualified,25,1978,CT,Connecticut,743400.0
+ALL,All,548,1978,DC,District Of Columbia,1417515.0
+ALL_CANDIDATES,All Candidates,403,1978,DC,District Of Columbia,697772.0
+ALL_PACS,All PACs,111,1978,DC,District Of Columbia,219755.0
+H,House,300,1978,DC,District Of Columbia,326020.0
+N,PAC - Nonqualified,2,1978,DC,District Of Columbia,2754.0
+P,Presidential,2,1978,DC,District Of Columbia,2130.0
+Q,PAC - Qualified,107,1978,DC,District Of Columbia,215851.0
+S,Senate,101,1978,DC,District Of Columbia,369622.0
+W,Hybrid PAC (with Non-Contribution Account) - Qualified,2,1978,DC,District Of Columbia,1150.0
+X,Party - Nonqualified,1,1978,DC,District Of Columbia,400.0
+Y,Party - Qualified,33,1978,DC,District Of Columbia,499588.0
+ALL,All,71,1978,DE,Delaware,488784.0
+ALL_CANDIDATES,All Candidates,34,1978,DE,Delaware,233589.0
+ALL_PACS,All PACs,26,1978,DE,Delaware,56781.0
+H,House,14,1978,DE,Delaware,82077.0
+P,Presidential,1,1978,DE,Delaware,1000.0
+Q,PAC - Qualified,25,1978,DE,Delaware,55681.0
+S,Senate,19,1978,DE,Delaware,150512.0
+W,Hybrid PAC (with Non-Contribution Account) - Qualified,1,1978,DE,Delaware,1100.0
+X,Party - Nonqualified,1,1978,DE,Delaware,140.0
+Y,Party - Qualified,10,1978,DE,Delaware,198274.0
+ALL,All,467,1978,FL,Florida,3614392.0
+ALL_CANDIDATES,All Candidates,277,1978,FL,Florida,1822645.0
+ALL_PACS,All PACs,164,1978,FL,Florida,742695.0
+H,House,189,1978,FL,Florida,1218441.0
+N,PAC - Nonqualified,3,1978,FL,Florida,10325.0
+P,Presidential,3,1978,FL,Florida,17000.0
+Q,PAC - Qualified,159,1978,FL,Florida,726420.0
+S,Senate,85,1978,FL,Florida,587204.0

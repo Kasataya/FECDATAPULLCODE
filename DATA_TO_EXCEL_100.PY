@@ -35,7 +35,7 @@ class ApiDataExporter:
                 all_data.extend(fetched_data)
                 print(f"Fetched {len(fetched_data)} records from page {page}. Total records: {len(all_data)}")
                 page += 1
-                if len(all_data) >= 500:
+                if len(all_data) >= 100:
                     break
             else:
                 print("No data or error in response.")

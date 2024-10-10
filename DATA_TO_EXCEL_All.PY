@@ -2,7 +2,6 @@ import requests
 import pandas as pd
 import os
 import time
-from API_KEYS import api_keys
 from API_ENDPOINTS import endpoints
 
 class ApiDataExporter:
@@ -11,7 +10,20 @@ class ApiDataExporter:
         self.endpoint = endpoint
         self.url = base_url + endpoint
         self.per_page = per_page
-        self.api_keys = api_keys
+        self.api_keys = [
+    "3KxepHb7lqCGLqC1w1tjyDvimp9a51nZUZ64Yv98", #0
+    "fUS07ShwZeqSDrBhwDXRCiEt2nYMzbNoOfJAQKm3", #1
+    "2PgantnlxfnjuvZAfu5CYMs18aAfMGQk5NoEcZNp", #2
+    "zbvFHmqflljTyXzjNLMpg77haxZPg03LEjdxpQwI", #3
+    "cm8hRZzIBHFk6BMBBcsCk8dqPM2sEsN2tGK8jgf6", #4
+    "uN42dotWZf9ZIbokj8kYGGO3a4anQyX8czxQoAiE", #5
+    "02Kz0F5XffDP0DyNjtqh1Bi6HTToH9eC8geZ5nfS", #6
+    "BO5VVgOtnHb3EThI0nFx6fTjlR3JczdG5MRsxhC6", #7
+    "SDm3GiPDYL2MfXEQ19phRI01XXW78gs1YYtyoXQg", #8
+    "9NvFAQRiQalePC6KURWuwoHG4oaKWGrevm7KbaXa", #9
+    "7ECcl7lRRPUcSFqHb7aBFy3ERfBhlImzuzucJDoF", #10
+    "zN8UgFf45fTucyY7cwPWNTtlyqixOVgsjuS23uDY", #11
+]
         self.current_api_key_index = 0
 
     def get_current_api_key(self):

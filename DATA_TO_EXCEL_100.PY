@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 import os
-from API_KEYS import api_keys
+from API_ENDPOINTS import api_keys
 from API_ENDPOINTS import endpoints
 
 class ApiDataExporter:

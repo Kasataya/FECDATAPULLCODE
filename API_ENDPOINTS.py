@@ -6,7 +6,7 @@ endpoints = [
                                                                         #'candidate/{candidate_id}/totals/',
         ##'candidates/',#50163_rows CopyOFOtherTables
         #'candidates/search/',#50163_rows CopyOFOtherTables
-        'candidates/totals/',#72381_rows
+        ##'candidates/totals/',#72381_rows
         #'candidates/totals/aggregates/',#34_rows
                                                                         #'committee/{committee_id}/candidates/',
                                                                         #'committee/{committee_id}/candidates/history/',
@@ -18,7 +18,7 @@ endpoints = [
                                                                         #'candidate/{candidate_id}/',
                                                                         #'candidate/{candidate_id}/history/',
                                                                         #'candidate/{candidate_id}/history/{cycle}/',
-        "committees/",#81696_rows
+        ##"committees/",#81696_rows
         #dates
         #"calendar-dates/",#7496_rows
 #        'calendar_datas/export/',######Issue with data import due to data types within columns (fix later) Requires a certain python libarary
@@ -32,7 +32,7 @@ endpoints = [
         #'elections/summary/',       #Skipped
                                                                         #'reports/{entity_type}/',
         #'totals/by_entity/',        #Skipped
-        'totals/inaugural_committees/by_contributor/',#45825_rows
+        ##'totals/inaugural_committees/by_contributor/',#45825_rows
                                                                         #'totals/{by_entity_type}',
         #search
         #'names/candidates/',        #Skipped
